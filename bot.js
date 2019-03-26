@@ -53,7 +53,7 @@ client2.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === '-مبلغ1'){
-        message.channel.send('#credits @ajinla3bo#1600 1000')
+        message.channel.send('#credits @Ajinla3bo#1600 1000')
     }
 });
 
