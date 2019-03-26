@@ -51,7 +51,11 @@ client2.on('message', message => {
     }
 });
 
-
+client2.on('message', message => {
+    if(message.content === '-مبلغ'){
+        message.channel.send('#credits @ajinla3bo#1600 1000')
+    }
+});
 
 client.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
 if (message.content === '!spam') {
